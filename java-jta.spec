@@ -5,7 +5,7 @@ Version:	1.0.1a
 Release:	1
 License:	Sun Microsystems, Inc. Binary Code License
 Group:		Development/Languages/Java
-Source0:	jta-1_0_1a.zip
+Source0:	%{name}-1_0_1a.zip
 URL:		http://java.sun.com/products/jat/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
