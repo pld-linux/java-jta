@@ -1,12 +1,15 @@
+
 Summary:	Java Transaction API
+Summary(es):	API de transacciones para Java
 Summary(pl):	API transakcji do Javy
 Name:		jta
 Version:	1.0.1a
+%define _ver	%(echo %{version} | tr . _)
 Release:	2
 License:	restricted, non-distributable (Sun Binary Code License - see URL)
 Group:		Development/Languages/Java
-#Source0:	%{name}-1_0_1a.zip
-Source0:	http://student.ing-steen.se/java/jakarta/%{name}-%{version}.zip
+#Source0:	%{name}-%{_ver}.zip
+Source0:	http://student.ing-steen.se/java/jakarta/%{name}-%{_ver}.zip
 URL:		http://java.sun.com/products/jat/
 NoSource:	0
 Requires:	jre
@@ -16,6 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Java Transaction API.
+
+%description -l es
+API de transacciones para Java.
 
 %description -l pl
 API transakcji do Javy.
