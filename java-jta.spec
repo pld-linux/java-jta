@@ -3,10 +3,12 @@ Summary(pl):	API transakcji do Javy
 Name:		jta
 Version:	1.0.1a
 Release:	1
-License:	Sun Microsystems, Inc. Binary Code License
+License:	restricted, non-distributable (Sun Binary Code License - see URL)
 Group:		Development/Languages/Java
 Source0:	%{name}-1_0_1a.zip
 URL:		http://java.sun.com/products/jat/
+NoSource:	0
+Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
