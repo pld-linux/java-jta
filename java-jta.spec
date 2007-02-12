@@ -1,7 +1,7 @@
 %define	_ver	%(echo %{version} | tr . _)
 Summary:	Java Transaction API
-Summary(es):	API de transacciones para Java
-Summary(pl):	API transakcji do Javy
+Summary(es.UTF-8):   API de transacciones para Java
+Summary(pl.UTF-8):   API transakcji do Javy
 Name:		jta
 Version:	1.0.1B
 Release:	0.1
@@ -18,10 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Java Transaction API.
 
-%description -l es
+%description -l es.UTF-8
 API de transacciones para Java.
 
-%description -l pl
+%description -l pl.UTF-8
 API transakcji do Javy.
 
 %prep
