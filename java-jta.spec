@@ -1,7 +1,7 @@
 %define	_ver	%(echo %{version} | tr . _)
 Summary:	Java Transaction API
-Summary(es.UTF-8):   API de transacciones para Java
-Summary(pl.UTF-8):   API transakcji do Javy
+Summary(es.UTF-8):	API de transacciones para Java
+Summary(pl.UTF-8):	API transakcji do Javy
 Name:		jta
 Version:	1.0.1B
 Release:	0.1
