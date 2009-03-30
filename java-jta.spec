@@ -9,7 +9,7 @@ Name:		jta
 Version:	1.1
 Release:	0.1
 License:	restricted, non-distributable (Sun Binary Code License - see URL)
-Group:		Development/Languages/Java
+Group:		Libraries/Java
 Source0:	%{name}-%{_ver}-classes.zip
 # NoSource0-md5:	f09f5b5856b85b9d1b200a36355a0572
 URL:		http://java.sun.com/products/jta/
