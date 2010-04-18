@@ -17,6 +17,7 @@ Source0:	%{srcname}-%{_ver}-classes.zip
 URL:		http://java.sun.com/products/jta/
 NoSource:	0
 Requires:	jre
+Provides:	java(jta) = %{version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
