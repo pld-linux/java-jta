@@ -14,8 +14,9 @@ License:	restricted, non-distributable (Sun Binary Code License - see URL)
 Group:		Libraries/Java
 Source0:	%{srcname}-%{_ver}-classes.zip
 # NoSource0-md5:	f09f5b5856b85b9d1b200a36355a0572
-URL:		http://java.sun.com/products/jta/
 NoSource:	0
+URL:		http://java.sun.com/products/jta/
+BuildRequires:	unzip
 Requires:	jre
 Provides:	java(jta) = %{version}
 BuildArch:	noarch
