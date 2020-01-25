@@ -3,7 +3,6 @@
 #   http://www.atomikos.com/Main/TransactionsEssentials
 %define	_ver	%(echo %{version} | tr . _)
 %define		srcname	jta
-%include	/usr/lib/rpm/macros.java
 Summary:	Java Transaction API
 Summary(es.UTF-8):	API de transacciones para Java
 Summary(pl.UTF-8):	API transakcji do Javy
